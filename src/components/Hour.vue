@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import Users from '../Components/Users'
+import Users from './Users'
 
 export default {
   name: 'hour',
