@@ -28,7 +28,6 @@ export default {
     let self = this
     getDisponibility()
     .then( function(data) {
-      console.log(data)
       self.schedules = data
     })
   }
