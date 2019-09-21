@@ -24,6 +24,5 @@ npm run test
 ```
 npm run lint
 ```
+![alt text](https://i.imgur.com/VYSyxZr.png)
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
