@@ -1,4 +1,5 @@
-# frontend
+# FRONTEND
+Utilizando VueJS, como manejador de plantilla PUG y para los estilos Stylus.
 
 ## Project setup
 ```
