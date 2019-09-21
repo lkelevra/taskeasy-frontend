@@ -1,12 +1,10 @@
 <template lang="pug">
-  #app
-    h1 Availivity List
-    #schedule
-      ul
-        hour(v-for="schedule in schedules" :schedule="schedule" :key="schedule.hour")
-
-
-
+#app
+  #header
+    h1 Availability List
+  #schedule
+    ul
+      hour(v-for="schedule in schedules" :schedule="schedule" :key="schedule.hour")
 </template>
 
 <script>
@@ -35,8 +33,17 @@ export default {
 }
 </script>
 <style lang="stylus">
+body
+  margin 0
+  padding 0
 #app
   font-family 'Avenir', Helvetica, Arial
+#header
+  display flex
+  background-color #333
+  color white
+  box-sizing border-box
+  padding 0.5rem
 #schedule
   border v
   overflow hidden

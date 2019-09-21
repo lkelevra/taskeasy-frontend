@@ -27,7 +27,8 @@ li
   font-size 1.5rem
   font-weight bold
   text-align center
-  background-color #f7f7f7
+  background-color #ff6347
+  color white
 li + li
   border-top 1px solid #f7f7f7
 </style>
